@@ -11,6 +11,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("Aaaa")
         view.backgroundColor = AppColors.background
         let label = UILabel()
         label.text = "Hello World!"
